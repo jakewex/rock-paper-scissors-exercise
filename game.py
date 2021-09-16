@@ -6,9 +6,8 @@ print("Rock, Paper, Scissors, Shoot!")
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
 print(usermove)
 
-#DETERMINE CPU CHOICE
+#DETERMINE CPU CHOICE Randomly
 options = ["rock", "paper", "scissors"]
 random.shuffle(options)
 cpumove = random.choice(options)
-print("Computer chose")
-print(cpumove)
+print("Computer chose", cpumove)
