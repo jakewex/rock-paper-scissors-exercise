@@ -11,3 +11,8 @@ options = ["rock", "paper", "scissors"]
 random.shuffle(options)
 cpumove = random.choice(options)
 print("The computer chose", cpumove)
+
+#DETERMINE WINNER BASED ON CHOICES
+if cpumove == usermove:
+    print("User and computer both chose", usermove)
+    print("Please try again to determine a winner")
