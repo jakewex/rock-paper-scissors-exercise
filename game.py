@@ -19,7 +19,21 @@ if cpumove == usermove:
 elif cpumove == "rock":
     if usermove == "paper":
         print("User chose paper. Computer chose rock. User wins!")
-        print("Please play again")
+        print("Please play again!")
     elif usermove == "scissors":
-        print("User chose scissors. Computer chose rock. Computer wins.")
-        print("Please play again")
+        print("User chose scissors. Computer chose rock. Computer wins!")
+        print("Please play again!")
+elif cpumove == "paper":
+    if usermove == "rock":
+        print("User chose rock. Computer chose paper. Computer wins!")
+        print("Please play again!")
+    elif usermove == "scissors":
+        print("User chose scissors. Computer chose paper. User wins!")
+        print("Please play again!")
+elif cpumove == "scissors":
+    if usermove == "paper":
+        print("User chose paper. Computer chose scissors. Computer wins!")
+        print("Please play again!")
+    elif usermove == "rock":
+        print("User chose rock. Computer chose scissors. User wins!")
+        print("Please play again!")
