@@ -11,6 +11,7 @@ elif usermove == "Paper" or usermove == "PAPER":
     usermove = "paper"
 elif usermove == "Scissors" or usermove == "SCISSORS":
     usermove = "scissors"
+print("The user chose", usermove)
 options = ["rock", "paper", "scissors"]
 if usermove not in options:
     print("User did not make a valid choice")
