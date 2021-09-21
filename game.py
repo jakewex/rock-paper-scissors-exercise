@@ -1,6 +1,8 @@
 #game.py
 import random
 import os
+
+#next handful of lines from Prof Rossetti in slack
 from dotenv import load_dotenv
 
 load_dotenv()
