@@ -1,12 +1,13 @@
 #game.py
 import random
 import os
+from dotenv import load_dotenv
 
-print("Rock, Paper, Scissors, Shoot!")
+load_dotenv()
 
-#PROMPT USER FOR NAME
-os.environ['username'] = input("What is your player name?")
-print("Welcome to rocks, paper, scissors,", os.getenv('username'))
+x = os.getenv("PLAYER_NAME")
+print(x)
+
 
 #PROMPT USER FOR GAME INPUT
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
