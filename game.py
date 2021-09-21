@@ -1,10 +1,13 @@
 #game.py
 import random
+import os
+
 print("Rock, Paper, Scissors, Shoot!")
 
 #PROMPT USER FOR NAME
-username = input("What is your player name?")
-print("Welcome to rocks, paper, scissors,", username)
+os.environ['username'] = input("What is your player name?")
+print("Welcome to rocks, paper, scissors,", os.getenv('username'))
+
 #PROMPT USER FOR GAME INPUT
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
 print("The user chose", usermove)
