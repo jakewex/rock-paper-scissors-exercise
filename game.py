@@ -9,6 +9,7 @@ options = ["rock", "paper", "scissors"]
 if usermove not in options:
     print("User did not make a valid choice")
     print("Try again, selecting either 'rock', 'paper', or 'scissors'")
+    quit()
 else:
     #DETERMINE CPU CHOICE Randomly
     random.shuffle(options)
@@ -16,7 +17,6 @@ else:
     print("The computer chose", cpumove)
 
     #DETERMINE WINNER BASED ON CHOICES
-
     if cpumove == usermove:
         print("User and computer both chose", usermove)
         print("Please try again to determine a winner")
