@@ -5,3 +5,6 @@
 # when prompted to do so, type either 'rock', 'paper', or 'scissors'
 # please use all lower case letters, all capital letters, or the first letter capitalized with the rest being lowercase
 # the program game.py will ask you to import the package "random"
+# please have the package python-dotenv installed
+
+# to have your name or desired username included in the exercise, please enter it in the .env file where a filler name has been entered.
