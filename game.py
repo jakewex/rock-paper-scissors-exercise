@@ -2,7 +2,10 @@
 import random
 print("Rock, Paper, Scissors, Shoot!")
 
-#PROMPT USER FOR INPUT
+#PROMPT USER FOR NAME
+username = input("What is your player name?")
+print("Welcome to rocks, paper, scissors,", username)
+#PROMPT USER FOR GAME INPUT
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
 print("The user chose", usermove)
 if usermove == "Rock" or usermove == "ROCK":
