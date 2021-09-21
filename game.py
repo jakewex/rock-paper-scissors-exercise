@@ -5,6 +5,12 @@ print("Rock, Paper, Scissors, Shoot!")
 #PROMPT USER FOR INPUT
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
 print("The user chose", usermove)
+if usermove == "Rock" or usermove == "ROCK":
+    usermove = "rock"
+elif usermove == "Paper" or usermove == "PAPER":
+    usermove = "paper"
+elif usermove == "Scissors" or usermove == "SCISSORS":
+    usermove = "scissors"
 options = ["rock", "paper", "scissors"]
 if usermove not in options:
     print("User did not make a valid choice")
