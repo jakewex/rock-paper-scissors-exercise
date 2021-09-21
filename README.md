@@ -4,3 +4,4 @@
 # if you have python and pip installed, simply type python game.py
 # when prompted to do so, type either 'rock', 'paper', or 'scissors'
 # please use all lower case letters
+# the program game.py will ask you to import the package "random"
