@@ -7,7 +7,9 @@
 # the program game.py will import the package "random" for you
 
 # NAMES
-# to have your name or desired username included in the exercise without changing any of the game.py code, please enter it in the .env file where a filler name has been entered to start. Note: this step is not necessary
+# to have your name or desired username included in the exercise without changing any of the game.py code, please enter it in a .env file
+# all you need in the file titled ".env" should be the following:
+# PLAYER_NAME="whatever you want the name to be"
 
 # RUNNING THE PROGRAM
 # you can run this file from within the folder/repository ROCK-PAPER-SCISSORS-EXERCISE
