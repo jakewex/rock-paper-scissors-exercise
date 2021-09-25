@@ -8,6 +8,7 @@
 
 # NAMES
 ### to have your name or desired username included in the exercise without changing any of the game.py code, please enter it in a .env file
+### you can create this .env file by making a new file within the repository in VS Code or an equivalent program, simply titling it ".env" and adding it next to the readme, game.py, and any other programs in the folder
 ### all you need in the file titled ".env" should be the following:
 ### PLAYER_NAME="whatever you want the name to be"
 
