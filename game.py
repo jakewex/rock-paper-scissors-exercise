@@ -13,7 +13,7 @@ print("Player name is", x)
 
 #PROMPT USER FOR GAME INPUT
 usermove = input("Game on! Choose 'rock' or 'paper' or 'scissors'!")
-print(x, " chose", usermove)
+
 if usermove == "Rock" or usermove == "ROCK":
     usermove = "rock"
 elif usermove == "Paper" or usermove == "PAPER":
